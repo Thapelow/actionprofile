@@ -18,7 +18,7 @@ jobs:
             fetch-depth: 0
 
         - name: Maven Build
-          run: mvn install
+          run: mvn clean install
 
     Testing:
       runs-on: ubuntu-latest
